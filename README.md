@@ -21,17 +21,26 @@
 - **增强Agent能力**：大幅扩展和优化了Agent功能，使其成为核心特色
 - **双核心架构**：将系统重新设计为**知识库**和**智能Agent**两大核心功能模块
 
+
 这样的设计让用户可以更专注于构建强大的知识库系统和智能化的Agent应用，为企业级AI应用提供更精准的解决方案。
 
 RAGFlow 可以为各种规模的企业及个人提供一套精简的 RAG 工作流程，结合大语言模型（LLM）针对用户各类不同的复杂格式数据提供可靠的问答以及有理有据的引用。
 
 ## 🎮 Demo 试用
 
-请登录网址 [https://oa.frontfidelity.cn:9222](https://oa.frontfidelity.cn:9222) 试用 后台编辑器demo。
+请登录网址 [https://oa.frontfidelity.cn:9222](https://oa.frontfidelity.cn:9222) 试用后台编辑器demo。
 
 TaskMe用户端demo：
+
 [https://oa.frontfidelity.cn:8099](https://oa.frontfidelity.cn:8099)
 
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/49796f5c-6509-487e-84ec-9cbf9487346d" />
+
+*PC客户端*
+
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/ee31d63e-5b44-48ae-8e24-808fd1739e65" />
+
+*移动客户端*
 
 
 ## 🚀 Agent功能增强
@@ -40,13 +49,29 @@ TaskMe用户端demo：
 
 ### 🤖 核心Agent能力
 - **MCP组件集成**：完成MCP（Model Context Protocol）组件的引用功能，支持更灵活的模型交互
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/7ed69034-63be-4612-8bb5-def765f8af92" />
+
+*MCP调用和配置*
 - **照片描述组件**：新增图像理解能力，支持上传图片并生成智能描述
 - **语音转文字**：集成用户语音转文字功能，提升交互体验
 - **微信端支持**：添加微信端token支持和微信登录注册功能
 
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/a344af9a-e9c7-4795-8ea1-362caa3ea3bf" />
+
+*微信登录*
+
 ### 🛠️ Agent管理优化
 - **权限管理**：细化Agent团队权限操作，增加标签和权限功能
 - **钉钉聊天机器人绑定**：支持Agent绑定钉钉聊天机器人，扩展应用场景
+
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/4fb6008d-a5e3-413f-b6d1-6a7a9cbddca5" />
+
+*发布为钉钉机器人*
+
+<img width="366" alt="image" src="https://github.com/user-attachments/assets/56dea8ad-1043-4525-8097-85ee62aa8add" />
+
+*钉钉群中使用Agent*
+
 - **最近使用记录**：新增获取最近使用的Agent接口
 - **用户体验**：前端增加编辑Agent信息入口，优化Agent运行界面
 
@@ -59,7 +84,6 @@ TaskMe用户端demo：
 
 ### 🌐 集成能力扩展
 - **后台机器人调度**：增加后台机器人调度服务器
-- **工单系统**：添加工单系统服务选项，支持企业级应用
 - **多模态支持**：在Agent聊天中支持图像、语音、文本等多种输入模态
 
 
