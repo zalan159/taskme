@@ -1,0 +1,27 @@
+{
+  "appName": "Your App Name",
+  "industryOptions": [
+    { "value": "finance", "label": "金融业" },
+    { "value": "power", "label": "能源业" },
+    { "value": "construction", "label": "建筑业" },
+    { "value": "wholesale", "label": "批发和零售业" },
+    { "value": "mining", "label": "采矿业" },
+    { "value": "manufacturing", "label": "制造业" },
+    { "value": "leasing", "label": "租赁和商务服务业" },
+    { "value": "services", "label": "居民服务、修理和其他服务业" },
+    { "value": "hospitality", "label": "住宿和餐饮业" },
+    { "value": "finance", "label": "金融业" },
+    { "value": "realty", "label": "房地产业" },
+    { "value": "education", "label": "教育" },
+    { "value": "public", "label": "公共管理、社会保障和社会组织" },
+    { "value": "culture", "label": "文化、体育和娱乐业" },
+    { "value": "insurance", "label": "保险业" },
+    { "value": "agriculture", "label": "农、林、牧、渔业" },
+    { "value": "technology", "label": "科学研究和技术服务业" },
+    { "value": "other", "label": "其他" }
+  ],
+  "wechat": {
+    "appId": "your_wechat_app_id",
+    "redirectUri": "your_wechat_redirect_uri"
+  }
+} 

@@ -1,0 +1,16 @@
+mysql:
+  name: rag_flow
+  user: root
+  password: your_mysql_password
+  host: your_mysql_host
+  port: 3306
+
+api:
+  host: 0.0.0.0
+  port: 8000
+
+bot:
+  url: http://your_ragflow_host:9380/v1/chatbot/chat
+
+log:
+  level: INFO 

@@ -1,0 +1,14 @@
+agent/canvas.py
+agent/component/__init__.py
+agent/component/base.py
+agent/component/mcpclient.py
+web/src/interfaces/database/flow.ts
+web/src/locales/en.ts
+web/src/locales/zh.ts
+web/src/pages/agent/form-sheet/use-form-config-map.tsx
+web/src/pages/flow/canvas/index.tsx
+web/src/pages/flow/constant.tsx
+web/src/pages/flow/flow-drawer/index.tsx
+web/src/pages/flow/operator-icon/index.tsx
+web/src/pages/flow/canvas/node/mcp-node.tsx
+web/src/pages/flow/form/mcp-form/index.tsx

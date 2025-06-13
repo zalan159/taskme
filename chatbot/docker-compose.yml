@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  openkag-chatbot:
+    image: openkag:chatbot
+    container_name: openkag-chatbot
+    restart: unless-stopped
+    ports:
+      - "18000:8000"
+    environment:
+      - TZ=Asia/Shanghai
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./logs:/app/logs
+      - ./config:/app/config:ro
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s

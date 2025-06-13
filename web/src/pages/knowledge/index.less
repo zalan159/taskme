@@ -1,0 +1,63 @@
+// @import '~@/less/variable.less';
+
+.knowledge {
+  padding: 48px 0;
+  overflow: auto;
+}
+
+.topWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 60px 72px;
+
+  .title {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: @fontWeight600;
+    line-height: 38px;
+    color: var(--ant-color-info);
+  }
+  .description {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .topButton {
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: @fontWeight600;
+    line-height: 20px;
+  }
+
+  .filterButton {
+    display: flex;
+    align-items: center;
+    .topButton();
+  }
+}
+
+.knowledgeCardContainer {
+  padding: 0 60px;
+  overflow: auto;
+
+  .section {
+    margin-bottom: 48px;
+
+    .sectionTitle {
+      margin-bottom: 24px;
+      color: var(--ant-color-info);
+      font-family: Inter;
+      font-weight: @fontWeight600;
+    }
+  }
+
+  .knowledgeEmpty {
+    width: 100%;
+  }
+}

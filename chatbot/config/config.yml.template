@@ -1,0 +1,16 @@
+mysql:
+  name: rag_flow
+  user: root
+  password: infini_rag_flow
+  host: lcoalhost
+  port: 5455
+
+api:
+  host: 0.0.0.0
+  port: 8000
+
+bot:
+  url: http://lcoalhost:9380/v1/chatbot/chat
+
+log:
+  level: INFO

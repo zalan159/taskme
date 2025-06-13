@@ -1,0 +1,10 @@
+{
+    "entity_name": [
+        "alias1",
+        "alias2"
+    ],
+    "example_entity": [
+        "description or definition"
+    ],
+    "sample_test_data": []
+} 
