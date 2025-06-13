@@ -368,8 +368,7 @@ docker build --build-arg NEED_MIRROR=1 -f Dockerfile -t infiniflow/ragflow:night
 
    ![](https://github.com/user-attachments/assets/0daf462c-a24d-4496-a66f-92533534e187)
 
-## 🤝 商务合作
 
-
-## 👥 加入社区
+## 👥 加入社区、商务合作请注明来意
+<img src="https://github.com/user-attachments/assets/128f7326-8f6e-414d-be9c-81364bf7a391" alt="image" width="30%" />
 
